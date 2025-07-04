@@ -11792,6 +11792,246 @@ proxies:
     password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2
     udp: true
 
+  - name: "🇺🇸美国1294"
+    type: vmess
+    server: 45.147.201.231
+    port: 23115
+    uuid: 4ec43410-ba14-4c22-8b51-ede0375c0091
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
+  - name: "🇺🇸美国1295"
+    type: ss
+    server: gz.pddwdf.store
+    port: 39723
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇺🇸美国1296"
+    type: vmess
+    server: 45.147.201.231
+    port: 23115
+    uuid: e54a1f0b-d568-49e7-ab42-9959ab3dea63
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
+  - name: "🇺🇸美国1297"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 33079
+    password: e54a1f0b-d568-49e7-ab42-9959ab3dea63
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1298"
+    type: ss
+    server: gz.pddwdf.store
+    port: 11515
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇺🇸美国1299"
+    type: vmess
+    server: 45.147.201.231
+    port: 20072
+    uuid: e54a1f0b-d568-49e7-ab42-9959ab3dea63
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
+  - name: "🇺🇸美国1300"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 33079
+    password: 4ec43410-ba14-4c22-8b51-ede0375c0091
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1301"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 33079
+    password: 0c82e3e9-a958-46c8-810c-d2968ed2a142
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1302"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 30076
+    password: e54a1f0b-d568-49e7-ab42-9959ab3dea63
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1303"
+    type: vmess
+    server: 45.147.201.231
+    port: 20072
+    uuid: 0c82e3e9-a958-46c8-810c-d2968ed2a142
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
+  - name: "🇺🇸美国1304"
+    type: vmess
+    server: 45.147.201.231
+    port: 20072
+    uuid: 4ec43410-ba14-4c22-8b51-ede0375c0091
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
+  - name: "🇺🇸美国1305"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 31007
+    password: e54a1f0b-d568-49e7-ab42-9959ab3dea63
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1306"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 31007
+    password: 0c82e3e9-a958-46c8-810c-d2968ed2a142
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1307"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45053
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇺🇸美国1308"
+    type: hysteria2
+    server: mxdx.pddwdf.store
+    port: 10822
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: mxdx.pddwdf.store
+    udp: true
+
+  - name: "🇺🇸美国1309"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 30076
+    password: 4ec43410-ba14-4c22-8b51-ede0375c0091
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1310"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 30076
+    password: 0c82e3e9-a958-46c8-810c-d2968ed2a142
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1311"
+    type: ss
+    server: gz.pddwdf.store
+    port: 33143
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇺🇸美国1312"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45052
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇺🇸美国1313"
+    type: hysteria2
+    server: 45.147.201.231
+    port: 31007
+    password: 4ec43410-ba14-4c22-8b51-ede0375c0091
+    obfs: salamander
+    obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+    sni: 45.147.201.231
+    up: 100
+    down: 100
+    udp: true
+
+  - name: "🇺🇸美国1314"
+    type: ss
+    server: gz.pddwdf.store
+    port: 18006
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇺🇸美国1315"
+    type: vmess
+    server: 45.147.201.231
+    port: 23115
+    uuid: 0c82e3e9-a958-46c8-810c-d2968ed2a142
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
   - name: "🇸🇬新加坡001"
     type: ss
     server: sgp05.htz.wtf
@@ -16784,6 +17024,76 @@ proxies:
     password: 0a7c2a40-9cee-4b87-9ef9-65eb535a4b6b
     udp: true
 
+  - name: "🇸🇬新加坡498"
+    type: ss
+    server: gz.pddwdf.store
+    port: 20692
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇸🇬新加坡499"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45055
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇸🇬新加坡500"
+    type: hysteria2
+    server: sg5.pddwdf.store
+    port: 29362
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: sg5.pddwdf.store
+    udp: true
+
+  - name: "🇸🇬新加坡501"
+    type: ss
+    server: gz.pddwdf.store
+    port: 33227
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇸🇬新加坡502"
+    type: ss
+    server: gz.pddwdf.store
+    port: 39367
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇸🇬新加坡503"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45054
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇸🇬新加坡504"
+    type: hysteria2
+    server: sg1t.pddwdf.store
+    port: 20362
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: sg1t.pddwdf.store
+    udp: true
+
+  - name: "🇸🇬新加坡505"
+    type: hysteria2
+    server: sg2.pddwdf.store
+    port: 10115
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: sg2.pddwdf.store
+    udp: true
+
   - name: "🇹🇼台湾001"
     type: ss
     server: twgame05.htz.wtf
@@ -18738,6 +19048,76 @@ proxies:
     port: 20399
     cipher: chacha20-ietf-poly1305
     password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2
+    udp: true
+
+  - name: "🇹🇼台湾201"
+    type: ss
+    server: gz.pddwdf.store
+    port: 14867
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇹🇼台湾202"
+    type: hysteria2
+    server: tw.pddwdf.store
+    port: 11309
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: tw.pddwdf.store
+    udp: true
+
+  - name: "🇹🇼台湾203"
+    type: ss
+    server: gz.pddwdf.store
+    port: 50971
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇹🇼台湾204"
+    type: hysteria2
+    server: twphy.pddwdf.store
+    port: 17899
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: twphy.pddwdf.store
+    udp: true
+
+  - name: "🇹🇼台湾205"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45078
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇹🇼台湾206"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45077
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇹🇼台湾207"
+    type: ss
+    server: gz.pddwdf.store
+    port: 42980
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇹🇼台湾208"
+    type: hysteria2
+    server: ww.pddwdf.store
+    port: 15963
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: ww.pddwdf.store
     udp: true
 
   - name: "🇭🇰香港001"
@@ -21934,6 +22314,70 @@ proxies:
     password: a38a2c43-91bd-41fa-96fe-635302d719ae
     udp: true
 
+  - name: "🇭🇰香港324"
+    type: hysteria2
+    server: hk3.pddwdf.store
+    port: 10866
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: hk3.pddwdf.store
+    udp: true
+
+  - name: "🇭🇰香港325"
+    type: hysteria2
+    server: hk2.pddwdf.store
+    port: 36111
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZjFjZTA2MzlmYWExYzJkMg==
+    sni: hk2.pddwdf.store
+    udp: true
+
+  - name: "🇭🇰香港326"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45051
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇭🇰香港327"
+    type: ss
+    server: gz.pddwdf.store
+    port: 14941
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇭🇰香港328"
+    type: ss
+    server: gz.pddwdf.store
+    port: 36137
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇭🇰香港329"
+    type: ss
+    server: sh.pddwdf.store
+    port: 39707
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇭🇰香港330"
+    type: vmess
+    server: xg.dashuai.cyou
+    port: 19901
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
   - name: "🇯🇵日本001"
     type: vless
     server: 108.162.195.247
@@ -24956,6 +25400,76 @@ proxies:
     port: 20315
     cipher: chacha20-ietf-poly1305
     password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2
+    udp: true
+
+  - name: "🇯🇵日本329"
+    type: ss
+    server: gz.pddwdf.store
+    port: 28485
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇯🇵日本330"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45056
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇯🇵日本331"
+    type: hysteria2
+    server: jp3.pddwdf.store
+    port: 19725
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: jp3.pddwdf.store
+    udp: true
+
+  - name: "🇯🇵日本332"
+    type: hysteria2
+    server: jp7.pddwdf.store
+    port: 10269
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: jp7.pddwdf.store
+    udp: true
+
+  - name: "🇯🇵日本333"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45057
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇯🇵日本334"
+    type: ss
+    server: gz.pddwdf.store
+    port: 48973
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇯🇵日本335"
+    type: hysteria2
+    server: dj.pddwdf.store
+    port: 11225
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: dj.pddwdf.store
+    udp: true
+
+  - name: "🇯🇵日本336"
+    type: ss
+    server: gz.pddwdf.store
+    port: 47431
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
     udp: true
 
   - name: "🇩🇪德国001"
@@ -33220,6 +33734,214 @@ proxies:
     password: 5a0b2638-8416-42c1-b87e-99864b3d3ef2
     udp: true
 
+  - name: "🌐其他709"
+    type: ss
+    server: gz.pddwdf.store
+    port: 22455
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他710"
+    type: hysteria2
+    server: au0.pddwdf.store
+    port: 17296
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZmJlYzA1ZTUxMjk1NDA0Nw==
+    sni: au0.pddwdf.store
+    udp: true
+
+  - name: "🌐其他711"
+    type: hysteria2
+    server: phl.pddwdf.store
+    port: 13695
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: phl.pddwdf.store
+    udp: true
+
+  - name: "🌐其他712"
+    type: hysteria2
+    server: helan.pddwdf.store
+    port: 15974
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: helan.pddwdf.store
+    udp: true
+
+  - name: "🌐其他713"
+    type: ss
+    server: gz.pddwdf.store
+    port: 49831
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他714"
+    type: ss
+    server: gz.pddwdf.store
+    port: 50921
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他715"
+    type: ss
+    server: gz.pddwdf.store
+    port: 36086
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他716"
+    type: hysteria2
+    server: miandian.pddwdf.store
+    port: 10365
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: miandian.pddwdf.store
+    udp: true
+
+  - name: "🌐其他717"
+    type: ss
+    server: gz.pddwdf.store
+    port: 46253
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他718"
+    type: hysteria2
+    server: fr.pddwdf.store
+    port: 26399
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZjlmNDQ0MzAwNDgwMTUxMQ==
+    sni: fr.pddwdf.store
+    udp: true
+
+  - name: "🌐其他719"
+    type: hysteria2
+    server: de.pddwdf.store
+    port: 42586
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: de.pddwdf.store
+    udp: true
+
+  - name: "🌐其他720"
+    type: ss
+    server: gz.pddwdf.store
+    port: 53177
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他721"
+    type: ss
+    server: gz.pddwdf.store
+    port: 12034
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他722"
+    type: hysteria2
+    server: alian.pddwdf.store
+    port: 20362
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: alian.pddwdf.store
+    udp: true
+
+  - name: "🌐其他723"
+    type: ss
+    server: gz.pddwdf.store
+    port: 15783
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他724"
+    type: hysteria2
+    server: is.pddwdf.store
+    port: 23614
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: is.pddwdf.store
+    udp: true
+
+  - name: "🌐其他725"
+    type: ss
+    server: sh.pddwdf.store
+    port: 38733
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他726"
+    type: hysteria2
+    server: ai.pddwdf.store
+    port: 42564
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: ai.pddwdf.store
+    udp: true
+
+  - name: "🌐其他727"
+    type: ss
+    server: gz.pddwdf.store
+    port: 42722
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他728"
+    type: ss
+    server: gz.pddwdf.store
+    port: 14193
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他729"
+    type: hysteria2
+    server: wkl.pddwdf.store
+    port: 2435
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: wkl.pddwdf.store
+    udp: true
+
+  - name: "🌐其他730"
+    type: hysteria2
+    server: naone-tha.pddwdf.store
+    port: 23652
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: naone-tha.pddwdf.store
+    udp: true
+
+  - name: "🌐其他731"
+    type: ss
+    server: gz.pddwdf.store
+    port: 44105
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🌐其他732"
+    type: hysteria2
+    server: ita.pddwdf.store
+    port: 14852
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: ita.pddwdf.store
+    udp: true
+
+  - name: "🌐其他733"
+    type: ss
+    server: gz.pddwdf.store
+    port: 51881
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
   - name: "🇳🇱荷兰001"
     type: hysteria2
     server: ztcloudnl.ztcloud.xyz
@@ -35897,6 +36619,60 @@ proxies:
     alterId: 0
     cipher: auto
     network: tcp
+    udp: true
+
+  - name: "🇰🇷韩国172"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45075
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇰🇷韩国173"
+    type: ss
+    server: gz.pddwdf.store
+    port: 11315
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇰🇷韩国174"
+    type: hysteria2
+    server: kor.pddwdf.store
+    port: 10119
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: kor.pddwdf.store
+    udp: true
+
+  - name: "🇰🇷韩国175"
+    type: hysteria2
+    server: kor-2.pddwdf.store
+    port: 17523
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: kor-2.pddwdf.store
+    udp: true
+
+  - name: "🇰🇷韩国176"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45076
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇰🇷韩国177"
+    type: ss
+    server: gz.pddwdf.store
+    port: 44081
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
     udp: true
 
   - name: "🇷🇺俄罗斯001"
@@ -40613,6 +41389,44 @@ proxies:
     servername: refersion.com
     udp: true
 
+  - name: "🇫🇷法国124"
+    type: hysteria2
+    server: uk.pddwdf.store
+    port: 36225
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: YTY3MWZiMDdiYzJjN2UwOQ==
+    sni: uk.pddwdf.store
+    udp: true
+
+  - name: "🇫🇷法国125"
+    type: ss
+    server: sh.pddwdf.store
+    port: 31032
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇫🇷法国126"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45071
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇫🇷法国127"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45072
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
   - name: "🇹🇷土耳其001"
     type: ss
     server: 62.133.63.212
@@ -40894,6 +41708,24 @@ proxies:
     password: HdihUYuf&72826:33+4hshdiu&6562+2;Jvsjdjr
     network: ws
     sni: NEt-ACCounT1.pAGEs.Dev
+    udp: true
+
+  - name: "🇹🇷土耳其032"
+    type: ss
+    server: gz.pddwdf.store
+    port: 33476
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇹🇷土耳其033"
+    type: hysteria2
+    server: tr.pddwdf.store
+    port: 10963
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: tr.pddwdf.store
     udp: true
 
   - name: "🇨🇦加拿大001"
@@ -41880,6 +42712,42 @@ proxies:
     server: haa.dashuai.cyou
     port: 45064
     uuid: e4758dd0-19a8-4e2d-b306-2d46a1ca958c
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇨🇦加拿大104"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45064
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇨🇦加拿大105"
+    type: ss
+    server: gz.pddwdf.store
+    port: 25916
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇨🇦加拿大106"
+    type: hysteria2
+    server: naone-ca.pddwdf.store
+    port: 19238
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: naone-ca.pddwdf.store
+    udp: true
+
+  - name: "🇨🇦加拿大107"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45065
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
     alterId: 0
     cipher: auto
     network: tcp
@@ -42953,6 +43821,50 @@ proxies:
     server: xdd.dashuai.cyou
     port: 45073
     uuid: 471aecf0-b6fc-4040-afa6-84195089f265
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇮🇳印度108"
+    type: ss
+    server: gz.pddwdf.store
+    port: 22327
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇮🇳印度109"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45074
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇮🇳印度110"
+    type: ss
+    server: gz.pddwdf.store
+    port: 43611
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇮🇳印度111"
+    type: hysteria2
+    server: in.pddwdf.store
+    port: 12345
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    sni: in.pddwdf.store
+    udp: true
+
+  - name: "🇮🇳印度112"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45073
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
     alterId: 0
     cipher: auto
     network: tcp
@@ -45141,6 +46053,26 @@ proxies:
     network: tcp
     udp: true
 
+  - name: "🇬🇧英国233"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45066
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇬🇧英国234"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45067
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
   - name: "🇻🇳越南001"
     type: hysteria2
     server: 103.137.184.65
@@ -45419,6 +46351,24 @@ proxies:
       mode: http
     udp: true
 
+  - name: "🇻🇳越南034"
+    type: hysteria2
+    server: vn.pddwdf.store
+    port: 10567
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: vn.pddwdf.store
+    udp: true
+
+  - name: "🇻🇳越南035"
+    type: ss
+    server: gz.pddwdf.store
+    port: 58043
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
   - name: "🇦🇷阿根廷001"
     type: ss
     server: 31.40.212.221
@@ -45643,6 +46593,24 @@ proxies:
     server: brv.pddwdf.store
     port: 19052
     password: a94b64c0-efeb-48c9-866f-797b3578b6b5
+    obfs: salamander
+    obfs-password: MTg2NzdlZGU5NzY2MWE1NA==
+    sni: brv.pddwdf.store
+    udp: true
+
+  - name: "🇧🇷巴西017"
+    type: ss
+    server: gz.pddwdf.store
+    port: 11270
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
+  - name: "🇧🇷巴西018"
+    type: hysteria2
+    server: brv.pddwdf.store
+    port: 19052
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
     obfs: salamander
     obfs-password: MTg2NzdlZGU5NzY2MWE1NA==
     sni: brv.pddwdf.store
@@ -46148,6 +47116,26 @@ proxies:
     port: 44105
     cipher: chacha20-ietf-poly1305
     password: 0a7c2a40-9cee-4b87-9ef9-65eb535a4b6b
+    udp: true
+
+  - name: "🇲🇾马来西亚057"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45059
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇲🇾马来西亚058"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45058
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
     udp: true
 
   - name: "🇦🇺澳大利亚001"
@@ -47110,6 +48098,26 @@ proxies:
     password: 042b0562-678a-3f83-ac35-96b40d20eb3f
     network: tcp
     sni: adly-ssl.20210420.xyz
+    udp: true
+
+  - name: "🇦🇺澳大利亚102"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45063
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇦🇺澳大利亚103"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45062
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
     udp: true
 
   - name: "🇨🇳中国001"
@@ -48287,6 +49295,24 @@ proxies:
     password: a94b64c0-efeb-48c9-866f-797b3578b6b5
     udp: true
 
+  - name: "🇪🇬埃及003"
+    type: hysteria2
+    server: eg.pddwdf.store
+    port: 14725
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    obfs: salamander
+    obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+    sni: eg.pddwdf.store
+    udp: true
+
+  - name: "🇪🇬埃及004"
+    type: ss
+    server: gz.pddwdf.store
+    port: 52461
+    cipher: chacha20-ietf-poly1305
+    password: a9c29350-da55-4b21-931a-83cf3a20cd4d
+    udp: true
+
   - name: "🇹🇭泰国001"
     type: ss
     server: freet.cloudrithm.com
@@ -48384,6 +49410,26 @@ proxies:
     port: 41731
     cipher: chacha20-ietf-poly1305
     password: 824180f1-a9bd-4f96-b4bc-edc24011a6cb
+    udp: true
+
+  - name: "🇹🇭泰国012"
+    type: vmess
+    server: xdd.dashuai.cyou
+    port: 45061
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🇹🇭泰国013"
+    type: vmess
+    server: haa.dashuai.cyou
+    port: 45060
+    uuid: 81a8be3f-71aa-4aa3-b114-9713d0f40f15
+    alterId: 0
+    cipher: auto
+    network: tcp
     udp: true
 
   - name: "🇿🇦南非001"
