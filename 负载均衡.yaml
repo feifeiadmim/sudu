@@ -1,0 +1,308 @@
+# 基础配置
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+
+# DNS配置
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+
+# 代理组配置
+proxy-groups:
+  # 负载均衡组
+  - name: "负载均衡-轮询"
+    type: load-balance
+    strategy: round-robin
+    url: http://www.google.com/generate_204
+    interval: 300
+    include-all: true
+
+  - name: "负载均衡-散列"
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://www.google.com/generate_204
+    interval: 300
+    include-all: true
+
+  # 延迟测速组
+  - name: "Auto - UrlTest"
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 1800
+    include-all: true
+
+  # 按用户要求排序的代理组
+  - name: "🚀 节点选择"
+    type: select
+    proxies:
+      - "负载均衡-散列"
+      - "负载均衡-轮询"
+      - "Auto - UrlTest"
+      - "DIRECT"
+    include-all: true
+
+  - name: "📹 油管视频"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+
+  - name: "🎬 奈飞影视"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  - name: "📱 电报消息"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  - name: "🤖 AI套件"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    filter: "美|日|韩|台|新|JP|US|KR|TW"
+    include-all: true
+
+  - name: "🏰 迪士尼"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  # 其他流媒体和电视服务
+  - name: "🎵 Spotify"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  # 其他应用和服务
+
+  - name: "🎮 Steam"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+
+  - name: "⚡ 测速网站"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+      - "🎯 国内直连"
+    include-all: true
+
+  - name: "🖥️ 微软服务"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+
+  - name: "🎶 网易音乐"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "🚀 节点选择"
+    include-all: true
+    filter: "网易云|解锁"
+
+  - name: "₿ 加密货币"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  - name: "📢 谷歌"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+
+  # 移动到底部的代理组
+  - name: "🎯 国内直连"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "🚀 节点选择"
+
+  - name: "🐠 漏网之鱼"
+    type: select
+    proxies:
+      - "🚀 节点选择"
+      - "DIRECT"
+    include-all: true
+
+  - name: "🍎 苹果服务"
+    type: select
+    proxies:
+      - "DIRECT"
+      - "🚀 节点选择"
+
+# 规则提供者 - 完整版（保留所有原始规则集）
+rule-providers:
+
+  # 流媒体服务
+  Netflix:
+    type: http
+    behavior: classical
+    url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Netflix.list"
+    path: ./ruleset/Netflix.yaml
+    interval: 86400
+
+  Spotify:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Spotify.yaml"
+    path: ./ruleset/Spotify.yaml
+    interval: 86400
+
+  Disney:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Disney.yaml"
+    path: ./ruleset/Disney.yaml
+    interval: 86400
+
+  YouTube:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/YouTube.yaml"
+    path: ./ruleset/YouTube.yaml
+    interval: 86400
+
+  YouTube-Music:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/YouTubeMusic.yaml"
+    path: ./ruleset/YouTube-Music.yaml
+    interval: 86400
+
+  # 应用和服务
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://kelee.one/Tool/Clash/Rule/Telegram.yaml
+    path: ./ruleset/Telegram.yaml
+    interval: 86400
+
+  Steam:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge-3/Provider/Steam.list
+    path: ./ruleset/Steam.yaml
+    interval: 86400
+
+  Speedtest:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Speedtest.yaml"
+    path: ./ruleset/Speedtest.yaml
+    interval: 86400
+
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://rule.kelee.one/Clash/Microsoft.yaml
+    path: ./ruleset/Microsoft.yaml
+    interval: 86400
+
+  Netease-Music:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/NetEaseMusic.yaml"
+    path: ./ruleset/Netease-Music.yaml
+    interval: 86400
+
+  # 特殊规则和代理规则
+
+  Proxy:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Proxy.yaml"
+    path: ./ruleset/Proxy.yaml
+    interval: 86400
+
+  Domestic:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Direct.yaml"
+    path: ./ruleset/Domestic.yaml
+    interval: 86400
+
+  Apple:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Apple.yaml"
+    path: ./ruleset/Apple.yaml
+    interval: 86400
+
+  Crypto:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Crypto.yaml"
+    path: ./ruleset/Crypto.yaml
+    interval: 86400
+
+  Google:
+    type: http
+    behavior: classical
+    url: "https://rule.kelee.one/Clash/Google.yaml"
+    path: ./ruleset/Google.yaml
+    interval: 86400
+
+  AI-Suite:
+    type: http
+    behavior: classical
+    url: https://kelee.one/Tool/Clash/Rule/AI.yaml
+    path: ./ruleset/AI-Suite.yaml
+    interval: 86400
+
+# 规则配置 - 完整版（保留所有原始规则）
+rules:
+
+  # 流媒体服务
+  - RULE-SET,Netflix,🎬 奈飞影视
+  - RULE-SET,Spotify,🎵 Spotify
+  - RULE-SET,Disney,🏰 迪士尼
+  - RULE-SET,YouTube,📹 油管视频
+  - RULE-SET,YouTube-Music,📹 油管视频
+
+  # 应用和服务规则
+  - RULE-SET,Telegram,📱 电报消息
+  - RULE-SET,Steam,🎮 Steam
+  - RULE-SET,Speedtest,⚡ 测速网站
+  - RULE-SET,Microsoft,🖥️ 微软服务
+  - RULE-SET,Netease-Music,🎶 网易音乐
+  - RULE-SET,Proxy,🚀 节点选择
+  - RULE-SET,Domestic,🎯 国内直连
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Crypto,₿ 加密货币
+  - RULE-SET,Google,📢 谷歌
+  - RULE-SET,AI-Suite,🤖 AI套件
+
+  # 地理位置规则
+  - GEOIP,CN,🎯 国内直连
+
+  # 兜底规则
+  - MATCH,🐠 漏网之鱼
