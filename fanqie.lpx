@@ -62,6 +62,5 @@ DOMAIN-KEYWORD, asiad.byteactivity, REJECT
 DOMAIN-KEYWORD, wcp.taobao.com, REJECT
 DOMAIN-KEYWORD, p3-ad-sign.byteimg.com, REJECT
 DOMAIN-KEYWORD, zijieapi.com, REJECT
-DOMAIN-KEYWORD, douyin.com, REJECT
 DOMAIN-KEYWORD, ecombdimg.com, REJECT
 DOMAIN-KEYWORD, douyinpic.com, REJECT
