@@ -823,6 +823,20 @@ proxies:
         Host: broadcastlv.chat.bilibili.com
     udp: true
 
+  - name: "🇭🇰香港097"
+    type: vmess
+    server: e5d21898-t07z40-t12cnj-1ol97.hk.p5pv.com
+    port: 80
+    uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+    alterId: 2
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: broadcastlv.chat.bilibili.com
+    udp: true
+
   - name: "🇹🇼台湾001"
     type: ss
     server: 118.170.200.223
@@ -15259,6 +15273,14 @@ proxies:
     password: 093cdadb-b430-479e-b4b6-4e4e2cd5925f
     udp: true
 
+  - name: "🇹🇼台湾1803"
+    type: ss
+    server: 114.46.71.121
+    port: 10042
+    cipher: chacha20-ietf-poly1305
+    password: e1c1f45d-ff49-4bbe-8e5c-466be7da7940
+    udp: true
+
   - name: "🇹🇭泰国001"
     type: ss
     server: mlc.cac.cab
@@ -15669,6 +15691,16 @@ proxies:
     port: 17193
     password: 5OiuCsPmULZ0lJwts89fegLJE
     sni: bing.com
+    udp: true
+
+  - name: "🇸🇬新加坡031"
+    type: vless
+    server: 168.138.181.208
+    port: 443
+    uuid: 0783b1b9-5d8b-4d03-adc3-b050acc71a29
+    network: ws
+    tls: true
+    servername: sgp.rtot.me
     udp: true
 
   - name: "🇯🇵日本001"
@@ -18962,6 +18994,33 @@ proxies:
     sni: ocost-dy.wmlefl.cc
     udp: true
 
+  - name: "🇺🇸美国310"
+    type: vmess
+    server: ssssssssssssfffffffgh.2032.pp.ua
+    port: 443
+    uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
+    alterId: 0
+    cipher: auto
+    network: ws
+    tls: true
+    ws-opts:
+      path: "/6We3U9Df1WGxgFnoFPw1"
+      headers:
+        Host: ssssssssssssfffffffgh.2032.pp.ua
+    udp: true
+
+  - name: "🇺🇸美国311"
+    type: vmess
+    server: 45.144.174.211
+    port: 23168
+    uuid: 5104a960-2c84-4eaa-b17d-32c55ca272e4
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: "/"
+    udp: true
+
   - name: "🇬🇧英国001"
     type: hysteria2
     server: dg1.xiaohuolongjc.top
@@ -19158,6 +19217,14 @@ proxies:
     password: f8f7aCzcPKbsF8p3
     protocol: origin
     obfs: plain
+    udp: true
+
+  - name: "🇳🇱荷兰014"
+    type: ss
+    server: 51.15.17.169
+    port: 989
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
     udp: true
 
   - name: "🇩🇪德国001"
@@ -19979,6 +20046,34 @@ proxies:
     port: 10049
     cipher: chacha20-ietf-poly1305
     password: 6866cfef-3188-4fcd-a17e-751841e1a680
+    udp: true
+
+  - name: "🌐其他084"
+    type: ss
+    server: 125.229.191.101
+    port: 10007
+    cipher: chacha20-ietf-poly1305
+    password: 759a2ed7-7230-4585-9bee-c38715a7a8c0
+    udp: true
+
+  - name: "🌐其他085"
+    type: vmess
+    server: ppy-boardv2.02ijp4uos1.download
+    port: 26094
+    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    alterId: 0
+    cipher: auto
+    network: tcp
+    udp: true
+
+  - name: "🌐其他086"
+    type: vmess
+    server: ppy-boardv2.02ijp4uos1.download
+    port: 26139
+    uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+    alterId: 0
+    cipher: auto
+    network: tcp
     udp: true
 
   - name: "🇻🇳越南001"
