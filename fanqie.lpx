@@ -34,6 +34,7 @@ AND, ((DOMAIN-KEYWORD, api), (DOMAIN-KEYWORD, pangolin), (DOMAIN-SUFFIX, sgsnssd
 AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, -normal-lq), (DOMAIN-SUFFIX, zijieapi.com)), REJECT
 AND, ((DOMAIN-KEYWORD, v), (DOMAIN-KEYWORD, -reading-video.fqnovelvod.com)), REJECT
 AND, ((DOMAIN-KEYWORD, v), (DOMAIN-KEYWORD, -novelapp.fqnovelvod.com)), REJECT
+AND, ((DOMAIN-KEYWORD, ads), (DOMAIN-KEYWORD, -normal-hl.zijieapi.com)), REJECT
 URL-REGEX, "^http:\/\/p\d+-be-pack-sign\.pglstatp-toutiao\.com\/(ad-app-package|web\.business\.image)\/", REJECT
 DOMAIN, mon.zijieapi.com, REJECT
 DOMAIN, lf-ad-ies.bytecdn.cn, REJECT
