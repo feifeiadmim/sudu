@@ -26253,3 +26253,3061 @@ proxies:
     sni: cdnfire.xiaomispeed.com
     skip-cert-verify: false
     udp: true
+  - name: 🇯🇵 日本 03
+    server: vip3.kaixincloud.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇩🇪 德国 03
+    server: 162.159.152.4
+    port: 2053
+    type: vless
+    uuid: ec77b9ff-ba31-4b1d-8a81-ee9de133bcf0
+    tls: true
+    servername: ds2-mx-hel22-protection.iranlease.com
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ds2-mx-hel22-protection.iranlease.com
+    udp: true
+  - name: 🇫🇷 法国 01
+    server: 13.39.200.50
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 32
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 4d1dd99b-33b5-4fbd-8a29-282815fc352b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 04
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 5d640566-4051-466d-afe1-643f1c2fd366
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 43
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 09007daa-a345-4ec2-b3e8-37068855f877
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 01
+    server: 104.16.147.32
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇺🇸 美国 02
+    server: 154.211.8.18
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇭🇰 香港 49
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 09007daa-a345-4ec2-b3e8-37068855f877
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 07
+    server: 162.159.44.142
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇳🇱 荷兰 03
+    server: 193.29.139.177
+    port: 8080
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+  - name: 🇺🇸 美国 16
+    server: visa.com
+    port: 443
+    type: vless
+    uuid: 495c0dad-3268-4470-ac57-887c5089db0d
+    tls: true
+    servername: asuka.boringdad.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: asuka.boringdad.netlib.re
+    udp: true
+  - name: 🇩🇪 德国 08
+    server: 51.250.79.203
+    port: 22
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: NQRCh-qm11GH9MaRWX9NdmSdWaGRhFeS
+    udp: true
+  - name: 🇻🇳 越南商宽 05
+    server: 103.186.154.198
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 38
+    server: www.epicgames.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 16
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 85dcb9fc-8b0c-46b3-bbeb-d4de8425b54f
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 13
+    server: 103.186.154.22
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 03
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 8d846c23-6b57-4c60-9b3c-3c8efb47958d
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇫🇷 法国 02
+    server: 8.6.112.0
+    port: 8443
+    type: vless
+    uuid: 725495fc-61fc-4c68-bf27-54bb4459d37d
+    tls: true
+    servername: streamchat.ikoochi.ir
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/api?ed=2560"
+      headers:
+        Host: streamchat.ikoochi.ir
+    udp: true
+  - name: 🇩🇪 德国 05
+    server: 3.65.79.146
+    port: 22223
+    type: trojan
+    password: telegram-id-directvpn
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇱 波兰 04
+    server: plcdn20.suio.me
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: plcdn20.suio.me
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇫🇮 芬兰 01
+    server: ficdn19.suio.me
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: ficdn19.suio.me
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 23
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 71b83a55-6a1e-4c10-9af6-65eba015f479
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 02
+    server: vip1.kaixincloud.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇸🇬 新加坡 15
+    server: www.shopify.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 47
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: e77009cf-13db-4014-87d1-800bcfa9e173
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾家宽 01
+    server: freea.glyphara.com
+    port: 30201
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ
+      short-id: c1e12817
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 52
+    server: 104.18.32.47
+    port: 443
+    type: vless
+    uuid: e83a655f-0249-4583-b14c-adbd2d6687e6
+    tls: true
+    alpn:
+      - http/1.1
+    servername: gr.wordperessweb.ir.
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2082"
+      headers:
+        Host: gr.wordperessweb.ir.
+    udp: true
+  - name: 🇭🇰 香港 44
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 24237683-2753-4878-a95e-88d1b8e3d047
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 45
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 46fb0d3a-8fe4-417c-b974-7dec112740f6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 19
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 5d640566-4051-466d-afe1-643f1c2fd366
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 48
+    server: 104.16.250.22
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇸🇬 新加坡 04
+    server: v1.dabache.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇩🇪 德国 09
+    server: www.speedtest.net
+    port: 80
+    type: vless
+    uuid: 31a097a5-3d8c-4b4a-8dd5-bfac8e388b01
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN?ed=2048"
+      headers:
+        Host: Www.speedtest.net.sIgmasigmaboy.site.
+    udp: true
+  - name: 🇭🇰 香港 13
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 56a2a6cb-56f3-4d5a-996b-7cded944318d
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇺🇸 美国 06
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: f91b463a-41df-4ce1-bea3-9132a1b9a40c
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 27
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: eb1bea06-78d9-4fe9-8308-98db41d3304f
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 04
+    server: vip2.kaixincloud.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇸🇬 新加坡 03
+    server: v2.dabache.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇸🇬 新加坡 10
+    server: www.wto.org
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 17
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 36673535-ff0b-4bfd-b9d6-f280cc4703b5
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南 04
+    server: 103.186.154.28
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇮🇱 以色列 01
+    server: slur.izenny.com
+    port: 30348
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 01b1e50a-96d1-4eb7-ba26-d3ccc12caeb9
+    udp: true
+  - name: 🇺🇸 美国 18
+    server: docs.cloudflare.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇺🇸 美国 33
+    server: www.npmjs.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 35
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: cec71a02-0703-423f-938f-1abfb99795bd
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇭🇰 香港 10
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: cec71a02-0703-423f-938f-1abfb99795bd
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 22
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: e12390e2-350a-450b-a247-5f037c0a6661
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 24
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: b695585f-5e4f-483e-b53d-d69fc22f84c0
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 02
+    server: 103.186.155.138
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇭🇰 香港 26
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: fa22c79b-ced4-4eb8-91c4-c99286919274
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 40
+    server: cloudflare-dns.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 55
+    server: 103.149.183.12
+    port: 8388
+    type: ss
+    cipher: chacha20-ietf
+    password: asd123456
+    udp: true
+  - name: 🇺🇸 美国 51
+    server: www.udemy.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇯🇵 日本 02
+    server: freea.glyphara.com
+    port: 30301
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
+      short-id: 950cee8a
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 03
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: f37cb6e1-ad57-49c6-be62-d78da6c7751a
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 43
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 3d6feccc-ce86-4bf9-b943-207df9818ad5
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 44
+    server: cdnfire.xiaomispeed.com
+    port: 25501
+    type: trojan
+    password: 3f52f28b-a783-462b-8d08-20d50a29797c
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇩🇪 德国 04
+    server: 159.195.26.28
+    port: 443
+    type: vless
+    uuid: 84f66368-8a37-468e-ae95-5622255fd4db
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
+    servername: live.com
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 33
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 3d6feccc-ce86-4bf9-b943-207df9818ad5
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇱 波兰 03
+    server: plcdn1.suio.me
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: plcdn1.suio.me
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 49
+    server: 104.21.227.134
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇺🇸 美国 36
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: aaee4477-81cd-44c0-9bfa-0a7ad8f7d783
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇪 瑞典 01
+    server: 62.182.192.232
+    port: 8080
+    type: vless
+    uuid: d44175ee-d3e2-45d3-b16a-ea2705cbfe7b
+    tls: false
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: max.ru
+    udp: true
+  - name: 🇭🇰 香港 36
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: e2af7247-0eae-4378-9d69-4baf6fbcbf75
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 28
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 9fac282a-d8ad-40ab-962e-fc2504b17d88
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 荷兰 01
+    server: www.whatismyip.net
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 46
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 909020a3-40d6-47ba-93f3-fedde341e6aa
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 41
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: d60d5ee1-41ad-4ec0-abbc-3f67bec90d59
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 22
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: cad82deb-a15a-4561-b501-080032ee3fca
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇦 加拿大 01
+    server: tuntro006.instconn.com
+    port: 443
+    type: trojan
+    password: 30077070-596e-48ea-9400-14c8ed07bd97
+    sni: torontorm1.686911.xyz
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 51
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 3365c25f-4694-43dc-89f5-c1331f5a34e5
+    sni: cdnfire.xiaomispeed.com
+    udp: true
+  - name: 🇭🇰 香港 30
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: e2af7247-0eae-4378-9d69-4baf6fbcbf75
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 31
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 655a3e72-788e-41c1-8c23-6032490c64a0
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 08
+    server: cdnfire.xiaomispeed.com
+    port: 25501
+    type: trojan
+    password: 85dcb9fc-8b0c-46b3-bbeb-d4de8425b54f
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 01
+    server: openai.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 42
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: b41d2d22-2649-426a-9ee7-99bffdc98418
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 02
+    server: freea.glyphara.com
+    port: 30101
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU
+      short-id: 176d4445
+    servername: itunes.apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 14
+    server: freea.glyphara.com
+    port: 30703
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
+      short-id: 845532fa
+    servername: mensura.cdn-apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 05
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 883a873a-f817-4fa3-95fc-066f665c47bf
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 50
+    server: 104.17.25.173
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇵🇱 波兰 02
+    server: plcdn13.suio.me
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: plcdn13.suio.me
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇩🇪 德国 01
+    server: www.speedtest.net
+    port: 80
+    type: vless
+    uuid: 6b1348aa-43de-4c14-af6a-bcbe02b0c7d5
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/-ViV2ry@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL-@V2RIRAN-TEL--@V2RIRAN-JOIN-@V2RIRAN-TEL--@V2RIRAN?ed=2048"
+      headers:
+        Host: Www.speedtest.net.sIgmasigmaboy.site.
+    udp: true
+  - name: 🇭🇰 香港 12
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: cad82deb-a15a-4561-b501-080032ee3fca
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南 02
+    server: 103.186.154.169
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 07
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: f1f610d9-35f2-4e81-905f-5904f14c99a1
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港家宽 01
+    server: 58.152.53.219
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 19
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: f97a6964-0efd-432b-8015-f2e7e4c4a937
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 20
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: d1f6f54d-ff23-4ac7-b441-5f61e5472a6e
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 23
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: cabb8848-d242-4f20-bc56-c82b70cbecf8
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 10
+    server: 103.186.154.45
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇭🇰 香港 04
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: f4e646fb-d984-444d-9fee-65068ce0a0d6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 26
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: 0c183d94-795e-423d-acf8-328f1403f8a4
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 48
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: dec43cf3-32b5-4cad-bc3e-f1b905cc9dc6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 34
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: d60d5ee1-41ad-4ec0-abbc-3f67bec90d59
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 11
+    server: freea.glyphara.com
+    port: 30402
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
+      short-id: f5f6e6f4
+    servername: itunes.apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 17
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 98edcf90-4337-47e3-b389-7923f67aefc7
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 09
+    server: freea.glyphara.com
+    port: 30403
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo
+      short-id: 1b3f5a2e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 39
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: f37cb6e1-ad57-49c6-be62-d78da6c7751a
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南 01
+    server: 103.186.154.140
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 47
+    server: support.cloudflare.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇩🇪 德国 10
+    server: 8.211.15.153
+    port: 23903
+    type: vless
+    uuid: 02be0374-f826-4001-f406-ccbc3a5c71e0
+    tls: false
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港家宽 03
+    server: 58.152.25.130
+    port: 443
+    type: trojan
+    password: BxceQaOe
+    sni: t.me%2Fripaojiedian
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 09
+    server: 103.186.154.231
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇭🇰 香港 45
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 98141c38-7701-46dc-8f7f-d51c79550b21
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 07
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: cabb8848-d242-4f20-bc56-c82b70cbecf8
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇨🇴 哥伦比亚 01
+    server: 154.223.16.212
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    udp: true
+  - name: 🇭🇰 香港 37
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 09007daa-a345-4ec2-b3e8-37068855f877
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇧🇷 巴西 01
+    server: slur.izenny.com
+    port: 57577
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 01b1e50a-96d1-4eb7-ba26-d3ccc12caeb9
+    udp: true
+  - name: 🇭🇰 香港 06
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 8d846c23-6b57-4c60-9b3c-3c8efb47958d
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 01
+    server: freea.glyphara.com
+    port: 30202
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
+      short-id: 10fa499e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇩🇪 德国 02
+    server: 64.188.91.193
+    port: 2053
+    type: vless
+    uuid: b64ff004-ec17-4cbb-9f32-c4eb7f4660e8
+    tls: true
+    reality-opts:
+      public-key: isw9UCSqdj1pzN3KpqY634QY4eLCYmDrMgvI1XsQimA
+    servername: eh.vk.com
+    client-fingerprint: chrome
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: grpc
+    udp: true
+  - name: 🇭🇰 香港家宽 02
+    server: 58.152.18.124
+    port: 443
+    type: trojan
+    password: 869e9086806483ca4744a4cb0f3d6e16
+    sni: www.nintendogames.net
+    skip-cert-verify: false
+    udp: true
+  - name: 🇸🇬 新加坡 06
+    server: freea.glyphara.com
+    port: 30401
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk
+      short-id: 105a652c
+    servername: learn.microsoft.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 09
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 1e34b75c-4c33-4c92-a350-a56c8ac14ba0
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇲🇽 墨西哥 01
+    server: slur.izenny.com
+    port: 48907
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 01b1e50a-96d1-4eb7-ba26-d3ccc12caeb9
+    udp: true
+  - name: 🇩🇪 德国 07
+    server: lim1.svhamrah.shop
+    port: 4471
+    type: vless
+    uuid: 00c6707c-82c0-4076-92de-90c2338b2c87
+    tls: false
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - Excoino.com
+    udp: true
+  - name: 🇭🇰 香港 32
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 1ba5d687-a287-436a-8d50-f044d80a66ed
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 39
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: d8b3841a-ece7-4ce7-b2f9-30fc909cbeea
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 30
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 5c762006-ed60-4b35-b8fe-4520adeac906
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇫🇷 法国 03
+    server: kh7.rookari.com
+    port: 8013
+    type: vmess
+    uuid: 4c4b6ddd-21ba-4a9c-bbd3-210c9609969e
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+      headers:
+        Host:
+          - www.speedtest.net
+    udp: true
+  - name: 🇸🇬 新加坡 14
+    server: jry.izenny.com
+    port: 57884
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: b6409468-4489-4114-8906-24fd7b71ed03
+    udp: true
+  - name: 🇭🇰 香港 54
+    server: v9.hdacd.com
+    port: 30809
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇺🇸 美国 13
+    server: freea.glyphara.com
+    port: 30703
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
+      short-id: 845532fa
+    servername: mensura.cdn-apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇻🇳 越南商宽 04
+    server: 103.186.155.222
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 42
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: e12390e2-350a-450b-a247-5f037c0a6661
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 荷兰 05
+    server: cdnjs.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇺🇸 美国 34
+    server: freea.glyphara.com
+    port: 30701
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY
+      short-id: e62db878
+    servername: www.amd.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 11
+    server: 172.66.44.230
+    port: 8443
+    type: trojan
+    password: "8r<[9'l6hAO#8ZQi"
+    sni: Koma-YT.PAGeS.Dev
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: "/tro8sFW1S91B6sZrM1?ed=2560"
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+    udp: true
+  - name: 🇻🇳 越南商宽 03
+    server: 103.186.154.183
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 10
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 883a873a-f817-4fa3-95fc-066f665c47bf
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 29
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: b41d2d22-2649-426a-9ee7-99bffdc98418
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 09
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: f91b463a-41df-4ce1-bea3-9132a1b9a40c
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 15
+    server: www.fbi.gov
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇷🇺 俄罗斯 02
+    server: 51.250.41.237
+    port: 4443
+    type: vless
+    uuid: 71031aa1-067e-425e-97f5-37875f838a10
+    tls: true
+    reality-opts:
+      public-key: Oy9IM1uV6W9P3Pm4EIaW1LPqOP0XaT0jSCi4qITSYAI
+      short-id: 70cae732
+    servername: eh.vk.com
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 08
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: e2af7247-0eae-4378-9d69-4baf6fbcbf75
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 07
+    server: 103.186.155.57
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 37
+    server: 104.21.224.5
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇯🇵 日本 06
+    server: cloudflare.182682.xyz
+    port: 443
+    type: vless
+    uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+    tls: true
+    servername: l.ayovo.netlib.re
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: l.ayovo.netlib.re
+    udp: true
+  - name: 🇩🇪 德国 06
+    server: 3.65.79.146
+    port: 22222
+    type: trojan
+    password: telegram-id-privatevpns
+    sni: trojan.burgerip.co.uk
+    alpn:
+      - http/1.1
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 14
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 2f849918-39ea-492f-9313-137ddf02a79b
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇭🇰 香港 18
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: d6f4af2b-43c1-49e7-86c9-1d706e8c40ef
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 29
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: d1f6f54d-ff23-4ac7-b441-5f61e5472a6e
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 38
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: aaee4477-81cd-44c0-9bfa-0a7ad8f7d783
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇵🇱 波兰 01
+    server: 144.31.2.127
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: plcdn20.suio.me
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 25
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 7df3efd6-56d2-4df0-a364-08ff808f5e4c
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 05
+    server: freea.glyphara.com
+    port: 30401
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk
+      short-id: 105a652c
+    servername: learn.microsoft.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 24
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 2f849918-39ea-492f-9313-137ddf02a79b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 02
+    server: freea.glyphara.com
+    port: 30202
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
+      short-id: 10fa499e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 40
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 98edcf90-4337-47e3-b389-7923f67aefc7
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 11
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: d1f6f54d-ff23-4ac7-b441-5f61e5472a6e
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 52
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: f1f610d9-35f2-4e81-905f-5904f14c99a1
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 12
+    server: freea.glyphara.com
+    port: 30402
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
+      short-id: f5f6e6f4
+    servername: itunes.apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇹🇼 台湾家宽 02
+    server: freea.glyphara.com
+    port: 30201
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ
+      short-id: c1e12817
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 15
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 46cca90f-25ef-48ad-b486-e6cb1288ec49
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇭🇰 香港 20
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 687cd2c4-4d6d-4f27-b94b-fb5dfdd99b88
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南商宽 12
+    server: 103.186.155.144
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇳🇱 荷兰 02
+    server: 104.21.31.4
+    port: 8880
+    type: vless
+    uuid: 0a5ab719-2407-4398-b507-8437ef365023
+    tls: false
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: 
+        /FCHANNEL---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY---ELiV2-RAY
+      headers:
+        Host: underthegun.cfd.
+    udp: true
+  - name: 🇳🇱 荷兰 04
+    server: itarmy.com.ua
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇸🇬 新加坡 13
+    server: ns.cloudflare.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇬🇧 英国 01
+    server: v36.hdacd.com
+    port: 30836
+    type: vmess
+    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+    alterId: 2
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇯🇵 日本 05
+    server: v3.dabache.top
+    port: 443
+    type: vless
+    uuid: 0582626b-615b-49bc-aaea-5a88d3c6d03d
+    tls: true
+    servername: snip.zrfs.indevs.in
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.zrfs.indevs.in
+    udp: true
+  - name: 🇸🇬 新加坡 08
+    server: freea.glyphara.com
+    port: 30403
+    type: vless
+    uuid: 25cc6812-4765-49f8-a0bd-67819668c241
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo
+      short-id: 1b3f5a2e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 46
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 24237683-2753-4878-a95e-88d1b8e3d047
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 31
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: cad82deb-a15a-4561-b501-080032ee3fca
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 53
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: f37cb6e1-ad57-49c6-be62-d78da6c7751a
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 21
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 5d640566-4051-466d-afe1-643f1c2fd366
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 28
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 3d6feccc-ce86-4bf9-b943-207df9818ad5
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 27
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: 3f52f28b-a783-462b-8d08-20d50a29797c
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇪 瑞典 02
+    server: 176.125.240.166
+    port: 443
+    type: vless
+    uuid: 002accb526534fcab24a72b0ea1cff59
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: GgiY38LjRI1hS1LKhdqvtJ5SDDO436GvihG-TzEI2XE
+      short-id: aabbccdd
+    servername: apple.com
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 05
+    server: cdnfire.xiaomispeed.com
+    port: 25501
+    type: trojan
+    password: cabb8848-d242-4f20-bc56-c82b70cbecf8
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 41
+    server: developers.cloudflare.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 50
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: cec71a02-0703-423f-938f-1abfb99795bd
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 35
+    server: freea.glyphara.com
+    port: 30701
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: cgGav3P_PeaM4grdSECGj4Tt9IsCmSqhGo_EJ0_KdWY
+      short-id: e62db878
+    servername: www.amd.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 25
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: eb1bea06-78d9-4fe9-8308-98db41d3304f
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 01
+    server: freea.glyphara.com
+    port: 30301
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
+      short-id: 950cee8a
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 01
+    server: freea.glyphara.com
+    port: 30101
+    type: vless
+    uuid: c2d4decd-fcda-49bd-b067-ecbe11eae21b
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: egnl0iFXY3IZYfvHwoNd72sCaULkoFRoL78wQiFwcDU
+      short-id: 176d4445
+    servername: itunes.apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 12
+    server: www.temu.com
+    port: 2095
+    type: vless
+    uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+    tls: false
+    client-fingerprint: randomized
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: cnmfangbinxing-nmsl.nmsl-fangbinxing.workers.dev
+    udp: true
+  - name: 🇷🇺 俄罗斯 01
+    server: 51.250.41.237
+    port: 8443
+    type: vless
+    uuid: 71031aa1-067e-425e-97f5-37875f838a10
+    tls: true
+    reality-opts:
+      public-key: Oy9IM1uV6W9P3Pm4EIaW1LPqOP0XaT0jSCi4qITSYAI
+      short-id: 70cae732
+    servername: api-maps.yandex.ru
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 21
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 5af8af27-289a-4b9d-819b-ace6a6042dae
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 110
+    server: 104.16.40.145
+    port: 80
+    type: vless
+    uuid: 818a98bf-e7d0-45d5-800b-24d4058234c6
+    tls: false
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: still-smoke-881e-ppal03.cabit21569.workers.dev
+    udp: true
+  - name: 🇭🇰 香港 029
+    server: 123001.wdy88.com
+    port: 30005
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: bvc.bilivideo.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 047
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 31034b50-c346-4edf-8419-8578c8d4c708
+    sni: cdnfire.xiaomispeed.com
+    udp: true
+  - name: 🇭🇰 香港 014
+    server: 123001.wdy88.com
+    port: 23282
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 16
+    server: freea.glyphara.com
+    port: 30401
+    type: vless
+    uuid: dd1a684c-56fa-40ae-9b7e-6ad67fa32af2
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ZeXA8rcM3TV466jK83J157gY7U2JTI9KP9nmn_Nbawk
+      short-id: 105a652c
+    servername: learn.microsoft.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 072
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: dec43cf3-32b5-4cad-bc3e-f1b905cc9dc6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 114
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 986b0e5b-1372-443f-bbcd-c672bdff7b00
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 20
+    server: v3.dabache.top
+    port: 443
+    type: vless
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    tls: true
+    servername: kb.as129394.me
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: kb.as129394.me
+    udp: true
+  - name: 🇸🇬 新加坡 10
+    server: 123001.wdy88.com
+    port: 29956
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 04
+    server: 123001.wdy88.com
+    port: 54325
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: v1.kwaicdn.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 092
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 271f994c-02f2-45d3-b8b4-f497c1ce9753
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 115
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: 75e7af6f-588a-435d-ac6d-aefd0af9ace4
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 104
+    server: 154.211.8.18
+    port: 443
+    type: vless
+    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    tls: true
+    servername: snip.qqq.hidns.co
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.qqq.hidns.co
+    udp: true
+  - name: 🇭🇰 香港 093
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: a9c65266-acdb-4868-b498-aff429cdddee
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 35
+    server: 103.36.91.32
+    port: 8388
+    type: ss
+    cipher: chacha20-ietf
+    password: asd123456
+    udp: true
+  - name: 🇭🇰 香港 006
+    server: 123001.wdy88.com
+    port: 47107
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇮🇳 印度 04
+    server: 123001.wdy88.com
+    port: 26236
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 082
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 4bd174f9-4ce6-4ff0-8bd4-263d9ed19fa2
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 36
+    server: cfxr.eu.org
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.sheilabelinda.ndjp.net
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.sheilabelinda.ndjp.net
+    udp: true
+  - name: 🇯🇵 日本 11
+    server: 123001.wdy88.com
+    port: 38066
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 09
+    server: 123001.wdy88.com
+    port: 19266
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: v1.kwaicdn.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 01
+    server: 123001.wdy88.com
+    port: 20259
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 056
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: a9c65266-acdb-4868-b498-aff429cdddee
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 104
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 08b31bc0-9abb-4c10-884d-334a42d1e118
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 001
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 4bd174f9-4ce6-4ff0-8bd4-263d9ed19fa2
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 098
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 03c12414-6ad7-4e37-831a-41b59f9406fd
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 027
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: e2bbb544-87ef-4387-9292-1d2ec4a62ff5
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 16
+    server: staticdelivery.nexusmods.com
+    port: 443
+    type: vless
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    tls: true
+    servername: kb.as129394.me
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: kb.as129394.me
+    udp: true
+  - name: 🇹🇼 台湾 06
+    server: 123001.wdy88.com
+    port: 52134
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: v1.kwaicdn.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 092
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 85511aae-5f3c-426f-bd61-5595cb3813ac
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 070
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: e12390e2-350a-450b-a247-5f037c0a6661
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇲🇴 澳门 01
+    server: 123001.wdy88.com
+    port: 17684
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 045
+    server: 123001.wdy88.com
+    port: 56306
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 081
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: d4e70158-aa1c-4c54-8e0a-63225ea9d9d2
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 029
+    server: go2.lenovo.com
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.sheilabelinda.ndjp.net
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.sheilabelinda.ndjp.net
+    udp: true
+  - name: 🇺🇸 美国 068
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: fe1eb05e-8308-496a-b9e1-61994aa97803
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇦 沙特阿拉伯 01
+    server: 123001.wdy88.com
+    port: 32527
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 046
+    server: 123001.wdy88.com
+    port: 53367
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 034
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: a0838e25-3f25-437d-9c6a-3b59e617f3eb
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 18
+    server: v2.dabache.top
+    port: 443
+    type: vless
+    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    tls: true
+    servername: snip.qqq.hidns.co
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.qqq.hidns.co
+    udp: true
+  - name: 🇸🇬 新加坡 11
+    server: freea.glyphara.com
+    port: 30402
+    type: vless
+    uuid: dd1a684c-56fa-40ae-9b7e-6ad67fa32af2
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: uTOYAGREMpfEr3cQFcLwgMAWwwxjS3e2Yw32kCdN3Ew
+      short-id: f5f6e6f4
+    servername: itunes.apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇩🇪 德国 05
+    server: v1.dabache.top
+    port: 443
+    type: vless
+    uuid: fad8733d-a4b3-48ef-81b2-47297bb3e993
+    tls: true
+    servername: do-fra1.862400.xyz
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/announcement?ed=2048"
+      headers:
+        Host: do-fra1.862400.xyz
+    udp: true
+  - name: 🇺🇸 美国 113
+    server: chatgpt.yoloperps.fun
+    port: 8443
+    type: vless
+    uuid: 844e0f15-6ea4-4dd7-8f08-11311c9c23e8
+    tls: true
+    alpn:
+      - h3
+      - h2
+      - http/1.1
+    servername: cloudd.sonamii.com
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2440"
+      headers:
+        Host: cloudd.sonamii.com
+    udp: true
+  - name: 🇺🇸 美国 040
+    server: 123001.wdy88.com
+    port: 50977
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 101
+    server: freea.glyphara.com
+    port: 30703
+    type: vless
+    uuid: 165f2bcc-54de-4b95-93d7-d7b7b35cacdd
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
+      short-id: 845532fa
+    servername: mensura.cdn-apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 100
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 66f19341-ba12-4446-9bb3-fc4e36d5cac7
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 063
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: f4e646fb-d984-444d-9fee-65068ce0a0d6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 017
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 2f914df1-a8e2-45b5-bdcd-a7bb4aed663f
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇻🇳 越南 29
+    server: 103.186.154.206
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇺🇸 美国 005
+    server: cdnfire.xiaomispeed.com
+    port: 25502
+    type: trojan
+    password: 2f000f93-c0bf-4998-a530-fc711c37ab47
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 041
+    server: 123001.wdy88.com
+    port: 57281
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 11
+    server: freea.glyphara.com
+    port: 30202
+    type: vless
+    uuid: a0931bbb-41b9-4c06-9b3d-f3f62df41657
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
+      short-id: 10fa499e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇻🇳 越南 04
+    server: 123001.wdy88.com
+    port: 50838
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇯🇵 日本 02
+    server: freea.glyphara.com
+    port: 30303
+    type: vless
+    uuid: dd1a684c-56fa-40ae-9b7e-6ad67fa32af2
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: RuNAMARjcI4VNAkqWazbFm4sa3Kc-uViiruuByx2TiM
+      short-id: 4d77021d
+    servername: mensura.cdn-apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 098
+    server: orus1.link7749.top
+    port: 55443
+    type: vless
+    uuid: a0b2fb92-796e-47de-a620-21a18e5e4b16
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: cxX9LhPtgzMzjWBkXSSjmZgXsq252let5nQKqyK8Jww
+      short-id: 24410623
+    servername: www.bing.com
+    client-fingerprint: ios
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 002
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 986b0e5b-1372-443f-bbcd-c672bdff7b00
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇵🇹 葡萄牙 01
+    server: 185.231.233.112
+    port: 989
+    type: ss
+    cipher: aes-256-cfb
+    password: f8f7aCzcPKbsF8p3
+    udp: true
+  - name: 🇵🇱 波兰 01
+    server: plcdn20.suio.me
+    port: 443
+    type: vless
+    uuid: 02fb468f-21f2-460e-bfa1-ef52ae5e627f
+    tls: true
+    servername: plcdn20.suio.me
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 069
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 4d1dd99b-33b5-4fbd-8a29-282815fc352b
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇩🇪 德国 06
+    server: 25.129.197.138
+    port: 2096
+    type: vless
+    uuid: 0e0bf934-1942-4379-9c98-5cd9aa93140a
+    tls: true
+    servername: speed1.best-cloud.ir
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: speed1.best-cloud.ir
+    udp: true
+  - name: 🇭🇰 香港 058
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 43541094-75a3-4d59-b88f-1b8042b74b8b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇭🇰 香港 032
+    server: 123001.wdy88.com
+    port: 49562
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾家宽 04
+    server: freea.glyphara.com
+    port: 30201
+    type: vless
+    uuid: dd1a684c-56fa-40ae-9b7e-6ad67fa32af2
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: kb5IP7-mBUXwW7zszu-grmOgNEWmqDiCvf1NRfbF3AQ
+      short-id: c1e12817
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 063
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 78529fd0-946a-4834-94a1-0d19c67b2aaf
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇭🇰 香港 021
+    server: 123001.wdy88.com
+    port: 24184
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 060
+    server: 25.129.199.0
+    port: 2053
+    type: vless
+    uuid: 8a07740f-b932-4372-a3a2-ed91f184cd33
+    tls: true
+    servername: KhAmeneI.DPdNs.OrG
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiNDBNWGY3Z0NPd0loZ2YiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560"
+      headers:
+        Host: KhAmeneI.DPdNs.OrG
+    udp: true
+  - name: 🇸🇬 新加坡 07
+    server: 123001.wdy88.com
+    port: 36008
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 026
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 808b5ae2-7b94-43e7-8632-c639c3f72415
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 030
+    server: pages.cloudflare.com
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.sheilabelinda.ndjp.net
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.sheilabelinda.ndjp.net
+    udp: true
+  - name: 🇭🇰 香港 040
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 49d51e4a-7770-4a78-9165-b4fed003bfcb
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 083
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: adbdfdab-59ca-42d7-8f32-bfc2cee7de94
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 039
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: b8a8025b-275a-4304-a789-b0881b281b81
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 054
+    server: us.77sslink.top
+    port: 51455
+    type: vless
+    uuid: f7628e1f-7ada-4319-8a54-10ebe082475f
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: foOLmUYZXNuXPWKLWhFXyZ56trRIHrCMax67DQQ0khk
+      short-id: b2bcec94
+    servername: www.bing.com
+    client-fingerprint: safari
+    network: tcp
+    udp: true
+  - name: 🇯🇵 日本 04
+    server: freea.glyphara.com
+    port: 30301
+    type: vless
+    uuid: 5be7afcf-f2a9-4c37-b336-7658f21c1e57
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
+      short-id: 950cee8a
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇻🇳 越南 01
+    server: 123001.wdy88.com
+    port: 19606
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 057
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 2f000f93-c0bf-4998-a530-fc711c37ab47
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 015
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 78529fd0-946a-4834-94a1-0d19c67b2aaf
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 荷兰 03
+    server: singapore.com
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.sheilabelinda.ndjp.net
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.sheilabelinda.ndjp.net
+    udp: true
+  - name: 🇻🇳 越南 20
+    server: 103.186.155.29
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇯🇵 日本 06
+    server: freea.glyphara.com
+    port: 30301
+    type: vless
+    uuid: 165f2bcc-54de-4b95-93d7-d7b7b35cacdd
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IoW1RqD-BzW9oxaM4KtHx5ap6haIENhYyZt_oMZqlCM
+      short-id: 950cee8a
+    servername: lol.secure.dyn.riotcdn.net
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 028
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: add5d59b-5196-4b3e-bf80-50f851ba51a5
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇭🇰 香港家宽 01
+    server: 58.152.18.124
+    port: 443
+    type: trojan
+    password: 4843e94d205f3893f588255a591abe94
+    sni: www.nintendogames.net
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 079
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 715e7164-c698-4c04-9944-ad4b960fa51d
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 037
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: d4e70158-aa1c-4c54-8e0a-63225ea9d9d2
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 076
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: 59d240c9-c72e-4ea1-9672-4a319f3c9541
+    sni: green2.cdntencentmusic.com
+    udp: true
+  - name: 🇭🇰 香港 010
+    server: 123001.wdy88.com
+    port: 61142
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: mmbiz.qpic.cn
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 07
+    server: 123001.wdy88.com
+    port: 20803
+    type: trojan
+    password: 65762559-4288-4b42-b7ea-edf80342415d
+    sni: v1.kwaicdn.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 121
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: 66f19341-ba12-4446-9bb3-fc4e36d5cac7
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 荷兰 06
+    server: 185.221.222.202
+    port: 31779
+    type: vless
+    uuid: 052df1a5-f53f-46dc-8aeb-7ed893310551
+    tls: false
+    client-fingerprint: chrome
+    network: tcp
+    udp: true
+  - name: 🇩🇪 德国 08
+    server: 82.198.246.97
+    port: 180
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 111
+    server: registry.cyou
+    port: 443
+    type: vless
+    uuid: d65f5eda-38b3-448f-8e5d-50587f19dd25
+    tls: true
+    servername: snip.qqq.hidns.co
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: snip.qqq.hidns.co
+    udp: true
+  - name: 🇭🇰 香港 34
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: ce377145-8316-4740-bb1e-dafa5d8715cf
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇳🇱 荷兰 08
+    server: 104.26.12.27
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.fgfw.ccwu.cc
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.fgfw.ccwu.cc
+    udp: true
+  - name: 🇹🇼 台湾 08
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: f129d5c8-7b19-4415-8b31-5e3b63bbfeef
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 32
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 78529fd0-946a-4834-94a1-0d19c67b2aaf
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 19
+    server: 27.150.132.83
+    port: 12231
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇭🇰 香港 24
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 66b8e205-4f63-423f-b6b5-6a061b51abdf
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇺🇸 美国 06
+    server: one.dash.cloudflare.com
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.fgfw.ccwu.cc
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.fgfw.ccwu.cc
+    udp: true
+  - name: 🇸🇬 新加坡 20
+    server: vip2.kaixincloud.top
+    port: 443
+    type: vless
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    tls: true
+    servername: kb.as129394.me
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: kb.as129394.me
+    udp: true
+  - name: 🇸🇬 新加坡 11
+    server: 27.150.132.83
+    port: 12332
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇰🇷 韩国 01
+    server: slur.izenny.com
+    port: 43295
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 9fd04546-886b-47b0-8d33-0e92984baf94
+    udp: true
+  - name: 🇭🇰 香港 30
+    server: 27.150.132.83
+    port: 12439
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇻🇳 越南 26
+    server: 103.186.155.5
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇹🇼 台湾 16
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: f4e646fb-d984-444d-9fee-65068ce0a0d6
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 04
+    server: freea.glyphara.com
+    port: 30202
+    type: vless
+    uuid: 61709a19-1b41-49c6-aa45-672e64a099b4
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9ahErgB4NKffqiZe3HHRx7Wb5br086fhnI75YuCdN0U
+      short-id: 10fa499e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇺🇸 美国 23
+    server: cfxr.eu.org
+    port: 2053
+    type: vless
+    uuid: a2a396c3-f40e-4dee-bdbb-b1201f12dc1c
+    tls: true
+    servername: snippet.fgfw.ccwu.cc
+    client-fingerprint: chrome
+    network: ws
+    ws-opts:
+      path: "/danfeng?ed=2560"
+      headers:
+        Host: snippet.fgfw.ccwu.cc
+    udp: true
+  - name: 🇭🇰 香港 26
+    server: 27.150.132.83
+    port: 12436
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇹🇼 台湾 06
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 25a13ba6-5c83-4b9e-a6ef-037f0d378d1d
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 35
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: ad0e2434-a0ce-4550-b223-0922572d7b92
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 15
+    server: cdnfire.xiaomispeed.com
+    port: 21103
+    type: trojan
+    password: 33e8b929-6fef-4eee-b141-b8ff48a64ce8
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 09
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: eba033ea-127b-432a-ad56-b8ac5f915d1d
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇹🇼 台湾 05
+    server: cdnfire.xiaomispeed.com
+    port: 21101
+    type: trojan
+    password: 9891f36c-5f09-4660-b3ce-9a48c7885111
+    sni: cdnfire.xiaomispeed.com
+    udp: true
+  - name: 🇭🇰 香港 42
+    server: 43.161.253.78
+    port: 9527
+    type: vless
+    uuid: d4a23188-85b0-4b46-b84b-f1d36d66c03e
+    tls: false
+    network: tcp
+    udp: true
+  - name: 🇭🇰 香港 08
+    server: cdnfire.xiaomispeed.com
+    port: 21102
+    type: trojan
+    password: 91c93fb8-20d6-48bc-a5da-76ad298523d4
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 01
+    server: staticdelivery.nexusmods.com
+    port: 443
+    type: vless
+    uuid: b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d
+    tls: true
+    servername: kb.as129394.me
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: kb.as129394.me
+    udp: true
+  - name: 🇭🇰 香港 25
+    server: 27.150.132.83
+    port: 12437
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇻🇳 越南 18
+    server: 103.186.155.52
+    port: 38388
+    type: ss
+    cipher: aes-256-cfb
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    udp: true
+  - name: 🇹🇼 台湾 29
+    server: green2.cdntencentmusic.com
+    port: 35502
+    type: trojan
+    password: 986b0e5b-1372-443f-bbcd-c672bdff7b00
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 31
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 909020a3-40d6-47ba-93f3-fedde341e6aa
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 18
+    server: cdnfire.xiaomispeed.com
+    port: 25501
+    type: trojan
+    password: eba033ea-127b-432a-ad56-b8ac5f915d1d
+    sni: cdnfire.xiaomispeed.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇭🇰 香港 27
+    server: 27.150.132.83
+    port: 12433
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇭🇰 香港 18
+    server: green2.cdntencentmusic.com
+    port: 31103
+    type: trojan
+    password: 4d1dd99b-33b5-4fbd-8a29-282815fc352b
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 13
+    server: 27.150.132.83
+    port: 12335
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇰🇷 韩国 02
+    server: 152.70.92.69
+    port: 80
+    type: vmess
+    uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+  - name: 🇭🇰 香港 38
+    server: green2.cdntencentmusic.com
+    port: 31102
+    type: trojan
+    password: e12390e2-350a-450b-a247-5f037c0a6661
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇹🇼 台湾 30
+    server: green2.cdntencentmusic.com
+    port: 31101
+    type: trojan
+    password: f1f610d9-35f2-4e81-905f-5904f14c99a1
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: false
+    udp: true
+  - name: 🇺🇸 美国 18
+    server: 27.150.132.83
+    port: 12233
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇮🇳 印度 01
+    server: slur.izenny.com
+    port: 17254
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 9fd04546-886b-47b0-8d33-0e92984baf94
+    udp: true
+  - name: 🇺🇸 美国 04
+    server: freea.glyphara.com
+    port: 30703
+    type: vless
+    uuid: 61709a19-1b41-49c6-aa45-672e64a099b4
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: Fpcp8ed_KjL5rnn0gstMa0AQPL8GcYMtArb--r1AhnI
+      short-id: 845532fa
+    servername: mensura.cdn-apple.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇹🇼 台湾 02
+    server: 27.150.132.83
+    port: 12534
+    type: vmess
+    uuid: c0327ef5-2a20-306a-a985-2b805066ee58
+    alterId: 0
+    cipher: auto
+    tls: false
+    udp: true
+  - name: 🇹🇼 台湾 22
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: 98141c38-7701-46dc-8f7f-d51c79550b21
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
+  - name: 🇸🇬 新加坡 10
+    server: freea.glyphara.com
+    port: 30403
+    type: vless
+    uuid: 61709a19-1b41-49c6-aa45-672e64a099b4
+    tls: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: avy1Z524LLGhXuHyCYV_k_hqi_fnHPCNSdNE85Z4qDo
+      short-id: 1b3f5a2e
+    servername: www.samsung.com
+    client-fingerprint: firefox
+    network: tcp
+    udp: true
+  - name: 🇹🇼 台湾 23
+    server: green2.cdntencentmusic.com
+    port: 35501
+    type: trojan
+    password: f37cb6e1-ad57-49c6-be62-d78da6c7751a
+    sni: green2.cdntencentmusic.com
+    skip-cert-verify: true
+    udp: true
